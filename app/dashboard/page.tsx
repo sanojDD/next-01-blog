@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import React from "react";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
