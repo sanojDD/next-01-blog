@@ -26,7 +26,7 @@ export default async function DashboardRoute() {
     throw new Error("Not authenticated");
   }
 
-  const data = await getData(user.id);
+  const data = await getData(user?.id);
   return (
     <div>
       <div className="flex items-center justify-between mb-4 ">

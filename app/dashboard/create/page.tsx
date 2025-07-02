@@ -3,10 +3,8 @@ import { SubmitButton } from "@/components/general/SubmitButton";
 
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
